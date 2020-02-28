@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  sundevs:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: sundevs-image
+    ports:
+      - "8080:8080"
+    networks:
+      - network1
+
+networks:
+  network1:
