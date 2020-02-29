@@ -22,7 +22,7 @@ docker-compose up
 
 This command will run the instance based on the Docker file configuration that is also at the root folder of the project.
 
-# Endpoints
+## Endpoints
 
 You can access the endpoints for getting all registered users here like this
 
@@ -45,13 +45,15 @@ curl --location --request POST 'http://localhost:8080/sundevs/api/v1/users' \
     }'
 ```
 
-# Documentation
+## Documentation
 
 For a detailed information about the REST API, once you run it, go to the following url:
 
 ```
 http://localhost:8080/sundevs/swagger-ui.html
 ```
+
+![Swagger2 Documentation](https://raw.githubusercontent.com/darmandovargas/sundevs/master/Swagger2-Documentation.png)
 
 Enjoy it !
 
